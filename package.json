@@ -1,7 +1,7 @@
 {
   "name": "divoc-signer-verifier",
   "version": "0.0.1",
-  "description": "Signer and Verifier of DIVOC's Verifiable Credentials",
+  "description": "Verifiable QR SDK for DIVOC Credentials",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest",
