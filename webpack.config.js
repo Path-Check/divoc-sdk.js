@@ -5,7 +5,7 @@ module.exports = {
   entry: "./lib/index.js",
   devtool: "source-map",
   output: {
-    filename: 'divoc.min.js',
+    filename: 'divoc.sdk.min.js',
     path: path.resolve(__dirname, 'dist'),
     library: 'DIVOC',
     libraryTarget: 'umd',
