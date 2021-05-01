@@ -1,0 +1,22 @@
+{
+  "name": "divoc-signer-verifier",
+  "version": "0.0.1",
+  "description": "Signer and Verifier of DIVOC's Verifiable Credentials",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "webpack": "webpack --config webpack.config.js"
+  },
+  "author": "Vitor Pamplona",
+  "license": "MIT",
+  "dependencies": {
+    "jsonld-signatures": "6.0.0",
+    "jszip": "^3.6.0",
+    "vaccination-context": "1.0.8"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^4.6.0"
+  }
+}
