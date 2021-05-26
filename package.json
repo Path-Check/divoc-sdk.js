@@ -8,7 +8,7 @@
     "webpack": "webpack --config webpack.config.js"
   },
   "author": "Vitor Pamplona",
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "dependencies": {
     "jsonld-signatures": "6.0.0",
     "jszip": "^3.6.0",
