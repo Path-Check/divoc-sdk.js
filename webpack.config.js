@@ -11,6 +11,6 @@ module.exports = {
     libraryTarget: 'umd',
   },
   optimization: {
-    minimize: false
+    minimize: true
   }
 };
