@@ -1,5 +1,5 @@
 {
-  "name": "divoc-sdk",
+  "name": "@pathcheck/divoc-sdk",
   "version": "0.0.3",
   "description": "Verifiable QR SDK for DIVOC Credentials",
   "main": "lib/index.js",
