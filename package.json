@@ -3,19 +3,29 @@
   "version": "0.0.3",
   "description": "Verifiable QR SDK for DIVOC Credentials",
   "main": "lib/index.js",
+  "module": "lib/main.js",
   "scripts": {
-    "test": "jest",
+    "test": "mocha",
     "webpack": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Path-Check/divoc-sdk.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Path-Check/divoc-sdk.js/issues"
   },
   "author": "Vitor Pamplona",
   "license": "GPL-3.0-only",
   "dependencies": {
+    "esm": "^3.2.25",
     "jsonld-signatures": "6.0.0",
     "jszip": "^3.6.0",
     "vaccination-context": "1.0.8"
   },
   "devDependencies": {
-    "jest": "^26.6.3",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^4.6.0"
   }

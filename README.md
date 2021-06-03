@@ -5,7 +5,7 @@ JavaScript Implementation of [DIVOC's COWIN Credentials for India](https://divoc
 # Install
 
 ```sh
-npm install divoc.sdk --save
+npm install @pathcheck/divoc-sdk --save
 ```
 
 # Usage

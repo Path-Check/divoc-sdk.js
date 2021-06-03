@@ -2,10 +2,10 @@ const path = require('path');
 
 module.exports = {
   mode: "production",
-  entry: "./lib/index.js",
+  entry: "./lib/main.js",
   devtool: "source-map",
   output: {
-    filename: 'divoc.sdk.min.js',
+    filename: 'divoc-sdk.min.js',
     path: path.resolve(__dirname, 'dist'),
     library: 'DIVOC',
     libraryTarget: 'umd',
