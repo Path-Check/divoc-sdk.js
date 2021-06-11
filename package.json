@@ -16,17 +16,23 @@
   "bugs": {
     "url": "https://github.com/Path-Check/divoc-sdk.js/issues"
   },
+  "files": [
+    "lib/**/*.js",
+    "lib/**/*.json",
+    "scripts/**/*.js"
+  ],
   "author": "Vitor Pamplona",
   "license": "GPL-3.0-only",
   "dependencies": {
     "esm": "^3.2.25",
     "jsonld-signatures": "6.0.0",
     "jszip": "^3.6.0",
-    "vaccination-context": "1.0.8"
+    "vaccination-context": "^1.0.8", 
+    "serialize-error": "^8.1.0"
   },
   "devDependencies": {
     "chai": "^4.3.4",
-    "mocha": "^8.4.0",
+    "mocha": "^9.0.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^4.6.0"
   }
