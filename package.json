@@ -38,5 +38,12 @@
     "mocha": "^9.0.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^4.6.0"
+  }, 
+  "engines": {
+    "node": ">=10"
+  },
+  "browser": {
+    "crypto": false,
+    "base64url": false
   }
 }
