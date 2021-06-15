@@ -100,6 +100,7 @@ describe('DIVOC crypto', function() {
   it('should Sign Pack And Unpack Verify JSON', async () => {
     const signed = await signAndPack(TEST_PAYLOAD);
     const resultJSON = await unpackAndVerify(signed);
+    delete  resultJSON["proof"];
     expect(resultJSON).to.eql(TEST_PAYLOAD);
   });
 
