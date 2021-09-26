@@ -28,7 +28,7 @@
     "crypto-ld": "^3.7.0",
     "esm": "^3.2.25",
     "jsonld": "^2.0.2",
-    "jszip": "^3.6.0",
+    "jszip": "^3.7.1",
     "node-forge": "^0.10.0",
     "serialize-error": "^8.1.0",
     "vaccination-context": "^1.0.8"
