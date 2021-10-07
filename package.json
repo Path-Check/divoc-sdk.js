@@ -31,7 +31,7 @@
     "jszip": "^3.7.1",
     "node-forge": "^0.10.0",
     "serialize-error": "^8.1.0",
-    "vaccination-context": "^1.0.8"
+    "vaccination-context": "^1.1.0"
   },
   "devDependencies": {
     "chai": "^4.3.4",
